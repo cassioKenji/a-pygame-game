@@ -25,7 +25,7 @@ while True:
   # update
 
   # draw
-  pygame.draw.lines(screen, black, False, [(100,500), (150,200), (200,100)], 1)
+  pygame.draw.rect(screen, black, (30,30,width,height), 10)
 
   pygame.display.update()
   fpsClock.tick(fps)
